@@ -1,0 +1,115 @@
+:root {
+    --font-primaria: 'Inter', sans-serif;
+    --background: #E9ECF8;
+    --cor-primaria: #0A3871;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primaria);
+    background: var(--background);
+} 
+
+.alura-logo {
+    padding: 1.25rem 2rem;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    padding: 2rem 5rem;
+    color: var(--cor-primaria);
+}
+
+.text__area {
+    border: none;
+    font-size: 2rem;
+    color: var(--cor-primaria);
+    resize: none;
+    outline: none;
+}
+
+::placeholder { 
+    color: var(--cor-primaria); 
+}
+
+.mensagem {
+    display: flex;
+    padding: 1rem 0 0 1.5rem;
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 1rem;
+    color: var(--cor-primaria);
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: fixed;
+    resize: none;
+    font-size: 1.5rem;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn__criptografar {
+    background-color: var(--cor-primaria);
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    cursor: pointer;
+    height: 4rem;
+    width: 18rem;
+    font-size: 1rem;
+}
+
+.btn__descriptografar {
+    background-color: var(--background);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 1.5rem;
+    color: var(--cor-primaria);
+    cursor: pointer;
+    margin-left: 1.5rem;
+    height: 4rem;
+    width: 18rem;
+    font-size: 1rem;
+}
+
+#copiarTexto {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 1.5rem;
+    color: var(--cor-primaria);
+    cursor: pointer;
+    height: 4.18rem;
+    margin-left: 3.5rem;
+    margin-top: 20rem;
+    position: absolute;
+    width: 18.5rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.info {
+    color: #495057;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.rodape {
+    padding: 1rem;
+    color: var(--background);
+    background-color: var(--cor-primaria);    
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+ }

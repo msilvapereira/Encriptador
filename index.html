@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="alura-logo" src="assets/alura-logo.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text__area" cols="41" rows="9" placeholder="Digite seu texto..."></textarea>
+
+            <div>
+                <h6 class="info">Apenas letras minúsculas e sem acentos.</h6>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn__criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="btn__descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="27" rows="15"></textarea>
+
+            <button id="copiarTexto" onclick="btnCopiar()">Copiar</button>
+
+        </section>
+    </main>
+        <footer class="rodape">Desenvolvido por Maria Eduarda</footer> 
+     <script src="script.js"></script>
+</body>     
+</html>
